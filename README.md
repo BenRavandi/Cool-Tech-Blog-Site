@@ -56,7 +56,7 @@ Used as a developer tech blog site to spend some time reading and writing about 
 
 ## ScreenShot
 
-The following displays a snapshot of my Full-Stack Tech Blog Application:
+The following displays a snapshot of my Full-Stack Tech Blog application:
 
 !["Snapshot of my Full-Stack Tech Blog Application".](./Assets/Screenshot%202024-05-12%20225111.png?raw=true>)
 !["Snapshot of my Full-Stack Tech Blog Application".](./Assets/Screenshot%202024-05-12%20224841.png?raw=true>)
