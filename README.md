@@ -58,7 +58,8 @@ Used as a developer tech blog site to spend some time reading and writing about 
 
 The following displays a snapshot of my Full-Stack Tech Blog Application:
 
-!["Snapshot of my Full-Stack Tech Blog Application".](../Assets/Screenshot%202024-05-06%20161443.png?raw=true>)
+!["Snapshot of my Full-Stack Tech Blog Application".](./Assets/Screenshot%202024-05-12%20225111.png?raw=true>)
+!["Snapshot of my Full-Stack Tech Blog Application".](./Assets/Screenshot%202024-05-12%20224841.png?raw=true>)
 
 ## License
 
