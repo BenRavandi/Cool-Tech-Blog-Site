@@ -1,0 +1,52 @@
+<form>
+  <!-- POST HEADER INFO -->
+  <div class="post-header">
+    <h2>{{post.title}}</h2>
+    <h4 id="align">Posted by
+      {{post.user.username}}
+      on
+      {{format_date post.created_at}}</h4>
+  </div>
+  <!-- POST MESSAGE -->
+  <div>
+    <p id="wordWrap">{{post.content}}</p>
+  </div>
+</form>
+
+{{#if loggedIn}}
+  <!-- CREATE A POST FORM -->
+  <form id="comment-form">
+    <div class="post-header">
+      <h2>Create A Comment</h2>
+    </div>
+    <div class="post-content">
+      <div>
+        <label>Comment</label>
+        <textarea
+          class="textarea"
+          placeholder="..."
+          id="comment-text"
+        ></textarea>
+      </div>
+      <button class="btn-generic" type="submit">Create</button>
+    </div>
+  </form>
+{{/if}}
+
+{{#each post.comments as |comment|}}
+  <!-- COMMENT FORM -->
+  <form>
+    <!-- COMMENT MESSAGE -->
+    <div>
+      <p>{{comment.comment_text}}</p>
+    </div>
+    <!-- COMMENT FOOTER INFO -->
+    <div class="post-header">
+      <h4 id="align1">{{user.username}} on {{format_date created_at}}</h4>
+    </div>
+  </form>
+{{/each}}
+
+{{#if loggedIn}}
+  <script src="/js/comment.js"></script>
+{{/if}}

@@ -1,0 +1,15 @@
+<!-- ADD A POST BTN -->
+
+{{#each posts as |post|}}
+  <button class="btn-generic btn-post" type="submit">
+    <a class="post-link" href="/editpost/{{post.id}}">{{post.title}}</a>
+    <p class="posted-by">Posted by
+      {{user.username}}
+      on
+      {{format_date post.created_at}}</p>
+  </button>
+{{/each}}
+
+<div>
+  <a href="/addpost" class="btn-add" type="submit">+ New Post</a>
+</div>

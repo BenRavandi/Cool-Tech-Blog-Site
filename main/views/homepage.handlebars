@@ -1,0 +1,18 @@
+<!-- POST FORM -->
+{{#each posts as |post|}}
+  <form>
+    <!-- POST HEADER INFO -->
+    <div class="post-header">
+      <a class="post-link" href="/post/{{post.id}}">{{post.title}}</a>
+      <h4>Posted by {{user.username}} on {{format_date created_at}}</h4>
+      <div>
+        <a id="commentSum" href="/post/{{post.id}}">{{post.comments.length}}
+          {{format_plural "comment" post.comments.length}}</a>
+      </div>
+    </div>
+    <!-- POST MESSAGE -->
+    <div>
+      <p>{{post.content}}</p>
+    </div>
+  </form>
+{{/each}}

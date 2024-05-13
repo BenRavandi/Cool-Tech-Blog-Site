@@ -1,0 +1,26 @@
+<!-- CREATE A POST FORM -->
+<form id="edit-post-form" name="{{post.id}}">
+  <div class="post-header">
+    <h2>Edit Your Post</h2>
+  </div>
+  <div class="post-content">
+    <div>
+      <label>Post Title</label>
+      <textarea
+        class="textarea"
+        placeholder="..."
+        id="post-title"
+      >{{post.title}}</textarea>
+      <label>Content</label>
+      <textarea
+        class="textarea"
+        placeholder="..."
+        id="post-text"
+      >{{post.content}}</textarea>
+    </div>
+    <button class="btn-generic" type="submit" id="save">Update</button>
+    <button class="btn-generic" type="reset" id="delete">Delete</button>
+  </div>
+</form>
+
+<script src="/js/edit-post.js"></script>
