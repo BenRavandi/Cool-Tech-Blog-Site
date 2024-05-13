@@ -72,7 +72,7 @@ Contributions are not accepted at the moment
 ## Test
 
 The following link will take you to my Full-Stack Tech Blog application: <br>
-<a href="https://www.loom.com/share/31fa9b97db9a44ee8662a4830a4272c11">Visit CoolTechBlogSite!</a>
+<a href="https://agile-plateau-29967-189749622561.herokuapp.com/">Visit CoolTechBlogSite!</a>
 
 ## Questions
 
